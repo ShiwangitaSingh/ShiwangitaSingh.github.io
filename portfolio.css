@@ -16,7 +16,7 @@
 
 .panel {
     float: left;
-    width: 13%;
+    width: 17%;
     height: 100%;
     position: fixed;
     z-index: 1;
@@ -28,14 +28,14 @@
 .panel button {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(62, 137, 202, 0);
-    width: 10%;
+    width: 15%;
     padding: 50px;
     color: white;
     border: none;
     text-align: left;
     font-size: 18px;
     border-radius: 8px;
-    box-shadow: 0 8px 16px 0 rgba(85, 195, 209, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 20px 15px 0 rgba(85, 195, 209, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -167,9 +167,9 @@ letter spacing, font-size etc.*/
     width: 90%;
 }
 
-.input {
+#name,#email,#subject,#msg {
     background-color: rgba(85, 195, 209, 0.2);
-    font-size: 20px;
+    font-size: 15px;
     width: 70%;
     padding: 10 15px;
     margin: 10px 5px;
@@ -207,3 +207,4 @@ letter spacing, font-size etc.*/
 }
 
 a.hover:hover, a.hover:active {letter-spacing:10px;}
+button.send:hover, button.send:active {font-size: 100%;}
