@@ -16,19 +16,19 @@
 
 .panel {
     float: left;
-    width: 10%;
+    width: 13%;
     height: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .panel button {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(62, 137, 202, 0);
-    width: 8%;
+    width: 10%;
     padding: 50px;
     color: white;
     border: none;
@@ -205,3 +205,5 @@ letter spacing, font-size etc.*/
     list-style-type: none;
     padding: 0;
 }
+
+a.hover:hover, a.hover:active {letter-spacing:10px;}
