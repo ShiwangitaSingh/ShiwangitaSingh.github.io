@@ -180,8 +180,8 @@ letter spacing, font-size etc.*/
 .touch {
     float: right;
     font-size: 20px;
-    width: 60%;
-    padding: 15px 22px;
+    width: 40%;
+    padding: 5px 15px;
     margin: 10px 5px;
     box-sizing: border-box;
     border: 4px solid rgba(85, 195, 209, 0.2);
