@@ -208,3 +208,12 @@ letter spacing, font-size etc.*/
 
 a.hover:hover, a.hover:active {letter-spacing:10px;}
 button.send:hover, button.send:active {font-size: 100%;}
+
+.img{
+    background-image: url("B612_20230325_011052_168.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
